@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Internal Data Search Engine</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; }
+    h1, h2 { color: #222; }
+    code { background: #f4f4f4; padding: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Internal Data Search Engine</h1>
+
+  <p>
+    A system built to help teams search and understand internal datasets
+    using keyword-based and metadata-aware search.
+  </p>
+
+  <h2>Problem</h2>
+  <ul>
+    <li>Hard to find the right table</li>
+    <li>Unclear column meanings</li>
+    <li>Repeated questions to data teams</li>
+  </ul>
+
+  <h2>Solution</h2>
+  <p>
+    A FastAPI backend with a Next.js UI that allows searching across
+    datasets and schema metadata.
+  </p>
+
+  <h2>Architecture</h2>
+  <pre>
+Next.js UI
+   ↓
+FastAPI API
+   ↓
+Structured datasets / metadata
+  </pre>
+
+  <h2>Source Code</h2>
+  <p>
+    <a href="https://github.com/AryanBhansali-SE/Data_search_engine">
+      View on GitHub
+    </a>
+  </p>
+
+  <h2>Run Locally</h2>
+  <pre>
+pip install -r requirements.txt
+uvicorn backend.main:app --reload
+  </pre>
+</body>
+</html>
