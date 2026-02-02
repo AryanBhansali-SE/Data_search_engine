@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../backend"
+		},
+		{
+			"path": "../colt-search-ui"
+		},
+		{
+			"path": "../data"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
